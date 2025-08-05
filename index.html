@@ -1,10 +1,67 @@
-<html>
-  <head>
-    <title>My Simple Homepage</title>
-  </head>
-  <body>
-    <h1>Title of My Simple Homepage</h1>
-    <h2>Subtitle</h2>
-    <p>Paragraph</p>
-  </body>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>시각화 수업</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #2196f3;
+      color: white;
+      border-radius: 10px;
+    }
+    section {
+      margin-top: 30px;
+    }
+    .chart {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .bar {
+      width: 40px;
+      margin: 0 10px;
+      background-color: #4caf50;
+      height: 100px;
+      transition: height 0.3s;
+    }
+    .bar:hover {
+      background-color: #388e3c;
+      height: 150px;
+    }
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📊 데이터 시각화 입문</h1>
+    <p>시각화로 데이터를 더 잘 이해해봐요!</p>
+  </header>
+
+  <section>
+    <h2>간단한 바 차트 예시</h2>
+    <div class="chart">
+      <div class="bar" style="height:80px;"></div>
+      <div class="bar" style="height:120px;"></div>
+      <div class="bar" style="height:60px;"></div>
+      <div class="bar" style="height:100px;"></div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Hyerin의 시각화 수업
+  </footer>
+</body>
 </html>
